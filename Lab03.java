@@ -6,8 +6,9 @@ public class Lab03 {
 
         System.out.println("startingValue: " / 3600);
         System.out.println("startingValue: " % 3600);
+        System.out.println(2800 / 60);
         System.out.println(2800 % 60);
-        
+       
         // Please do NOT do this
         System.out.println("Starting seconds: " + startingValue);
         System.out.println("Hours:      " + hours);
