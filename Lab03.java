@@ -6,18 +6,24 @@ public class Lab03 {
         int minutes = seconds / 60;
         int leftOver = seconds % 60;
 
+
+
         System.out.println(startingValue  / 3600);
         System.out.println(startingValue % 3600);
         System.out.println(seconds / 60);
         System.out.println(seconds % 60);
 
-
-
-
-
-        // Please do NOT do this
         System.out.println("Starting seconds: " + startingValue);
-        System.out.println("Hours:      " + hours);
+        System.out.println("Hours: " + hours);
+        System.out.println("Minutes: " + minutes);
+        System.out.println("Seconds:" + leftOver);
+
+
+
+
+
+
+
 
     }
 
